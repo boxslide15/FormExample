@@ -1,6 +1,6 @@
 import React from 'react'
 import { withFormik, Form, Field } from 'formik'
-import { LogInValidation } from '../Validators/ValidationSchema'
+import { LogInValidation } from '../Validator/ValidationSchema'
 import axios from 'axios'
 
 const LogIn = ({ touched, errors, isSubmitting, componentChange }) => {
